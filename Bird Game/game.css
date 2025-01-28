@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: default;
+
+}
+
+
+#gameArea {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    cursor: none;
+
+}
+
+
+#bird {
+    width: 200px;
+    height: 200px;
+    background: url('https://i.gifer.com/ZN2g.gif') no-repeat center / contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s;
+
+}
+
+#gun {
+    width: 200px;
+    height: 200px;
+    background: url('gon.png') no-repeat center / contain;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+
+#killed {
+    position: absolute;
+    width: 130px;
+    display: none;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2000;
+}
+
+
+#gameOverScreen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    z-index: 3000;
+}
+
+#gameOverScreen p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#restartButton:hover {
+    background-color: #0056b3;
+}
+
+
+#fullscreenButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2000;
+}
+
+#fullscreenButton:hover {
+    background-color: #1e7e34;
+}
+
+
+#startScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('start.png') no-repeat center center;
+    background-size: cover;
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#startButton:hover {
+    background-color: #0056b3;
+}
