@@ -2,8 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/github/repo-size/MahmoudEissaM/Java-Script?style=for-the-badge" alt="Repo Size"/>
-  <img src="https://img.shields.io/github/license/MahmoudEissaM/Java-Script?style=for-the-badge" alt="License"/>
 </p>
 
 ---
