@@ -2,14 +2,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/github/repo-size/MahmoudEissaM/Java-Script?style=for-the-badge" alt="Repo Size"/>
-  <img src="https://img.shields.io/github/license/MahmoudEissaM/Java-Script?style=for-the-badge" alt="License"/>
 </p>
 
 ---
 
 ## 🌟 Live Demo  
-🔗 **[Check it out here!](https://mahmoudeissam.github.io/Java-Script/)**  
+🔗 **[Check it out here!](https://mahmoudeissam.github.io/ToDo-List/)**  
 
 ---
 
@@ -23,7 +21,7 @@
 
 ## 📸 Screenshot  
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=To-Do+List+App+Screenshot" alt="To-Do List Screenshot" width="70%"/>
+  <img src="Capture.JPG" alt="To-Do List Screenshot" width="70%"/>
 </p>
 
 ---
